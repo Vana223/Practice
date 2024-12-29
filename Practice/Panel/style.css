@@ -1,0 +1,43 @@
+img.huechange {
+	filter: hue-rotate(120deg);
+}
+
+#map-container {
+	display: flex;
+	height: 100%;
+}
+
+#sidebar {
+	width: 100%;
+	background-color: #f8f9fa;
+	overflow-y: auto;
+	padding: 10px;
+	border-right: 1px solid #ddd;
+}
+
+#sidebar h3 {
+	text-align: center;
+	color: #333;
+	margin-bottom: 10px;
+}
+
+#sidebar ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+#sidebar ul li {
+	padding: 10px;
+	margin-bottom: 5px;
+	background-color: #e9ecef;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+}
+
+/* Стиль для підсвічування кнопки при наведенні */
+#store-list li:hover {
+	background-color: #ff9d52;
+	cursor: pointer;
+}
